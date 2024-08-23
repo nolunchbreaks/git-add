@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osagie Omon-anolu - Media Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .media-container {
+            margin-bottom: 2rem;
+        }
+        picture {
+            display: block;
+            max-width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        video {
+            max-width: 100%;
+        }
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pastor Osagie Anolu - Media Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="forms.html">Application Form</a></li>
+            <li><a href="table.html">Courses</a></li>
+            <li><a href="media.html">Media</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="media-container">
+            <h2>My Journey in Tech</h2>
+            <picture>
+                <source media="(min-width: 1024px)" srcset="https://example.com/large-image.jpg">
+                <source media="(min-width: 768px)" srcset="https://example.com/medium-image.jpg">
+                <source media="(min-width: 480px)" srcset="https://example.com/small-image.jpg">
+                <img src="https://example.com/default-image.jpg" alt="Osagie Anolu's journey in tech">
+            </picture>
+            <p>This image represents my journey from a non-tech background to becoming a software engineer through ALT School Africa.</p>
+        </section>
+
+        <section class="media-container">
+            <h2>Why I Chose Software Engineering</h2>
+            <video controls>
+                <source src="20240814_150437.mp4" type="20240814_150437">
+                Your browser does not support the video tag.
+            </video>
+            <p>In this video, I explain my passion for software engineering and why I decided to make a career change.</p>
+        </section>
+
+        <section class="media-container">
+            <h2>My Goals and Aspirations</h2>
+            <audio controls>
+                <source src="Voice 001 (1).m4a" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>Listen to me discuss my goals and aspirations in the tech industry, including my desire to provide for my children's education.</p>
+        </section>
+
+        <section class="media-container">
+            <h2>The Impact of Technology</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/R3NzTt0BTWE?si=0ar2fwY4KXkz3yiV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>This video showcases the impact of technology and why I'm excited to be part of this field.</p>
+        </section>
+    </main>
+</body>
+</html>
